@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-heigth: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: lightpink;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1)
+}
+.container .left_Side{
+    position: relative;
+    background: #003140;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .nics{
+    positon: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;  
+}
+.profileText .nics img{
+    positon: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+.profileText h2{
+    color: #fff;
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em; 
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 10%;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.container .right_Side{
+    position: relative;
+    background: lightpink;
+    padding: 40px;
+}
